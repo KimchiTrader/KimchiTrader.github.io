@@ -275,7 +275,7 @@
 			margin:30,
 			nav:false,
 			smartSpeed: 2000,
-			autoplay: true,
+			autoplay: 3000,
 			navText: [ '<span class="flaticon-left"></span>', '<span class="flaticon-right"></span>' ],
 			responsive:{
 				0:{
