@@ -122,10 +122,10 @@
 					duration: r,
 					easing: "linear",
 					step: function() {
-						$t.find(".count-text").text(Math.floor(this.countNum));
+						$t.find(".count-text").text(Math.floor(concat(this.countNum, "%"));
 					},
 					complete: function() {
-						$t.find(".count-text").text(this.countNum);
+						$t.find(".count-text").text(concat(this.countNum, "%"));
 					}
 				});
 			}
