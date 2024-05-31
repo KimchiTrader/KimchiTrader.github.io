@@ -262,7 +262,7 @@
 			margin:0,
 			nav:true,
 			smartSpeed: 300,
-			autoplay: 3000,
+			autoplay: false,
 			navText: [ '<span class="fas fa-long-arrow-alt-left"></span>', '<span class="fas fa-long-arrow-alt-right"></span>' ]
 		});  		
 	}
@@ -275,7 +275,7 @@
 			margin:30,
 			nav:false,
 			smartSpeed: 2000,
-			autoplay: 6000,
+			autoplay: false,
 			navText: [ '<span class="flaticon-left"></span>', '<span class="flaticon-right"></span>' ],
 			responsive:{
 				0:{
