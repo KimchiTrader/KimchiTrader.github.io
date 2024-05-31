@@ -3211,12 +3211,12 @@ div#mCSB_1_container{
 /** fun-fact **/
 
 .fun-fact{
-  position: center;
+  position: relative;
   padding: 85px 0px;
 }
 
 .fun-fact .counter-block .count-outer{
-  position: center;
+  position: relative;
   display: block;
   font-size: 50px;
   line-height: 50px;
@@ -3227,7 +3227,7 @@ div#mCSB_1_container{
 }
 
 .fun-fact .counter-block h5{
-  position: center;
+  position: relative;
   font-size: 17px;
   line-height: 26px;
   font-family: 'Poppins', sans-serif;
